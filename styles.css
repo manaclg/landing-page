@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* header section css */
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top , rgba(3, 0, 0, 0.5) ,rgba(3, 0, 0, 0.5)) , url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    padding: 16px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 30px;
+    color: red;
+    font-weight: 900;
+    text-shadow: 0 0 25px red , 0 0 50px red;
+}
+
+nav a{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+
+}
+
+nav a:hover{
+    color: red;
+}
+
+.search{
+    border: 3px solid red;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    color: white;
+
+}
+
+.search a{
+    color:white;
+    background: red;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.search a:hover{
+    color:red;
+    background: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+main{
+    color: white;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+.main-content{
+    /* border: 1px solid red; */
+    width: 700px;
+}
+
+.main-content h1{
+    font-size: 53px;
+}
+
+span{
+    color: red;
+}
+
+.main-content p{
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+.join{
+    /* border: 1px solid red; */
+    color:white;
+    font-size: 18px;
+    padding: 15px 30px;
+    background: red;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.join:hover{
+    color: red;
+    background: white;
+}
+
+
+.login-section{
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(1px);
+    width: 400px;
+    border-radius: 8px;
+}
+
+.login-section h2{
+    width: 80%;
+    /* border: 2px solid rgb(0, 255, 26);  */
+    background: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+.login-section form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.login-section form input{
+    width: 80%;
+    background: transparent;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid red;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+#login{
+    background: rgb(80, 132, 1);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login-section p{
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+
+#lgw{
+    font-size: 12px;
+}
+
+.social{
+    text-align: center;
+}
+.social a{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin: 0 5px 10px;
+    transition: 0.3s ease;
+
+
+}
+
+.social a:hover{
+    color: red;
+}
